@@ -3,12 +3,12 @@ LedHunt is a hardware-integrated game developed as the Final Project for the Mic
 
 ---
 
-🕹️ Project Overview
+## 🕹️ Project Overview
 
 The game simulates a shooting gallery where the player must hit moving targets represented by LEDs. The system correlates horizontal LED positions for both the "shot" and the "target."
 Key Features
 
-* Custom Hardware: A dedicated PCB designed in KiCad and hand-fabricated.
+ * Custom Hardware: A dedicated PCB designed in KiCad and hand-fabricated.
 
  * Shift Register Logic: Uses two 74HC595 ICs to expand the Arduino’s GPIO capabilities, managing the LED array with minimal pin usage.
 
@@ -18,7 +18,7 @@ Key Features
 
  * Interrupt-Driven Events: Utilizes hardware interrupts to trigger hit animations and sound effects instantly, ensuring a responsive gameplay experience.
 
-⚙️ Technical Architecture
+## ⚙️ Technical Architecture
 
  * Microcontroller: Arduino Uno (ATmega328P).
 
@@ -26,7 +26,7 @@ Key Features
 
  * Firmware Logic: The game loop manages target movement, while an interrupt routine handles the scoring and feedback mechanisms to maintain timing accuracy.
 
-🛠️ Hardware Fabrication
+## 🛠️ Hardware Fabrication
 
 This project involved the full electronics workflow:
 
