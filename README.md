@@ -40,4 +40,4 @@ This project involved the full electronics workflow:
 
   * Debouncing Fix: Resolve a firmware bug where a single input pulse is occasionally registered as two separate shots.
 
-  *Difficulty Scaling: Implement variable speeds for the target LEDs.
+  * Difficulty Scaling: Implement variable speeds for the target LEDs.
