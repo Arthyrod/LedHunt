@@ -18,7 +18,7 @@ Key Features
 
 *Interrupt-Driven Events: Utilizes hardware interrupts to trigger hit animations and sound effects instantly, ensuring a responsive gameplay experience.
 
-## ⚙️ Technical Architecture
+⚙️ Technical Architecture
 
 *Microcontroller: Arduino Uno (ATmega328P).
 
@@ -26,7 +26,7 @@ Key Features
 
 *Firmware Logic: The game loop manages target movement, while an interrupt routine handles the scoring and feedback mechanisms to maintain timing accuracy.
 
-## 🛠️ Hardware Fabrication
+🛠️ Hardware Fabrication
 
 This project involved the full electronics workflow:
 
@@ -35,7 +35,7 @@ This project involved the full electronics workflow:
 *PCB Layout: Focused on trace routing for the shift registers and LED matrix.
 
 *Prototyping: Manual etching and soldering of the final board.
-
+---
 🚀 Known Issues & Roadmap
 
   * Debouncing Fix: Resolve a firmware bug where a single input pulse is occasionally registered as two separate shots.
