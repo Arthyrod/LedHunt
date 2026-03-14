@@ -3,6 +3,7 @@ LedHunt is a hardware-integrated game developed as the Final Project for the Mic
 
 ---
 
+---
 ## 🕹️ Project Overview
 
 The game simulates a shooting gallery where the player must hit moving targets represented by LEDs. The system correlates horizontal LED positions for both the "shot" and the "target."
@@ -34,7 +35,7 @@ This project involved the full electronics workflow:
 
  * PCB Layout: Focused on trace routing for the shift registers and LED matrix.
 
-*Prototyping: Manual etching and soldering of the final board.
+ * Prototyping: Manual etching and soldering of the final board.
 ---
 🚀 Known Issues & Roadmap
 
